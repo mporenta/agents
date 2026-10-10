@@ -3,7 +3,7 @@ name: MLOps (lab baseline)
 # Reusable MLOps baseline for the Major 7 lab.
 #
 # Two modes:
-#   - kind=ci  (manual dispatch): lint + test gate before pushing a model.
+#   - kind=ci  (pull request or manual dispatch): lint + test gate before pushing a model.
 #   - kind=release (manual dispatch or on model/* tag): validate a model dir,
 #     push it to the Hugging Face `major7` org, and publish a model card
 #     summary.
@@ -19,6 +19,8 @@ name: MLOps (lab baseline)
 # major7-lab). See docs/mlops.md for the full lab pipeline.
 
 on:
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       kind:

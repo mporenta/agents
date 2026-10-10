@@ -1,6 +1,8 @@
 name: Plugin Eval Report
 
 on:
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       only_changed:
