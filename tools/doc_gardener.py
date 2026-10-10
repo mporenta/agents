@@ -78,7 +78,9 @@ BODY_LEADING_BLANKS_RE = re.compile(r"\A(?:[ \t]*\n)+")
 # Intentional variants, keyed by (plugin, agent file stem). These are workflow-specific
 # versions that share a name with the general agent shipped in other plugins:
 # backend-development's short feature-development trio, which sits beside the full
-# specialists, and incident-response's production-incident versions. They differ on
+# specialists, incident-response's production-incident versions, and database-design's
+# database-architect, which is the Snowflake Postgres + dbt data-platform architect while
+# database-cloud-optimization keeps the general multi-engine one. They differ on
 # purpose, so they are left out of the divergence comparison instead of being renamed,
 # which would change their generated IDs and every `subagent_type` that calls them.
 INTENTIONAL_AGENT_VARIANTS = frozenset(

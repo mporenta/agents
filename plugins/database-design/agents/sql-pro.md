@@ -28,7 +28,7 @@ is not in context, open it first; open `references/dbt-core-1-1x.md` for any dbt
 - Run DDL and migrations on port 5432 with `SET lock_timeout = '5s'` and `SET statement_timeout` appropriate to the table size. `CREATE INDEX CONCURRENTLY` outside a transaction.
 - Write queries that the indexes serve: leftmost-prefix on composite indexes, the same expression as the expression index, `WHERE` clauses that match partial index predicates.
 - Prefer `EXISTS` to `IN (subquery)` on large sets, `UNION ALL` to `UNION`, window functions to self-joins, `ON CONFLICT ... DO UPDATE ... WHERE ... IS DISTINCT FROM` to blind upserts.
-- Never `SELECT *` into a prepared statement on a pooled connection; through PgBouncer in transaction mode, session `SET`, SQL-level `PREPARE`, advisory locks, and temp tables do not carry between transactions.
+- Through PgBouncer in transaction mode (port 5431), session `SET`, SQL-level `PREPARE`, advisory locks, and temp tables do not carry between transactions. Use `SET LOCAL` and protocol-level prepared statements there.
 - Keep `updated_at` honest: no-op updates still fire the `moddatetime` trigger and cost a mirror change and a dbt incremental row.
 - Partition pruning needs the partition key as a literal or parameter in `WHERE`, not wrapped in a function.
 - Use `pg_stat_statements` and `hypopg` before adding an index; every index taxes inserts and WAL.

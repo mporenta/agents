@@ -25,7 +25,7 @@ how to model mirrored tables. Verified against the dbt docs in October 2026. The
 |---|---|---|
 | 1.10 | mid 2025 | `--sample`, `catalogs.yml`, config-key deprecations that v2 enforces |
 | 1.11 | December 2025 | UDFs as dbt resources, `DBT_ENGINE_*` env vars, JSON schema warnings on by default |
-| 1.12 | July 2026 | opt-in Rust parser (`--use-v2-parser`), UDF overloads, `vars.yml`, `on_error`, `run-operation --sql` |
+| 1.12 | mid 2026 (v1.12.0 tagged July 16, GA post August 17) | opt-in Rust parser (`--use-v2-parser`), UDF overloads, `vars.yml`, `on_error`, `run-operation --sql` |
 
 Adapter versions track core. `dbt-snowflake` must be 1.10.6 or later if any incremental model
 has collated string columns with `on_schema_change='sync_all_columns'` (Snowflake's 2026 default

@@ -195,7 +195,7 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 
 | Plugin                  | Description                             | Install                               |
 | ----------------------- | --------------------------------------- | ------------------------------------- |
-| **database-design**     | Database architecture and schema design | `/plugin install database-design`     |
+| **database-design**     | Snowflake Postgres + dbt table design   | `/plugin install database-design`     |
 | **database-migrations** | Database migration automation           | `/plugin install database-migrations` |
 
 ### 🚨 Operations (4 plugins)
