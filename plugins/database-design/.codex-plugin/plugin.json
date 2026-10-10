@@ -11,7 +11,7 @@
   "repository": "https://github.com/wshobson/agents",
   "license": "MIT",
   "keywords": [
-    "postgresql-table-design"
+    "snowflake-postgres-table-design"
   ],
   "interface": {
     "displayName": "Database Design",

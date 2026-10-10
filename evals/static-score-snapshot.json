@@ -704,19 +704,19 @@
       "token_efficiency": 0.9774647887323944
     }
   },
-  "database-design/postgresql-table-design": {
+  "database-design/snowflake-postgres-table-design": {
     "badge": "silver",
-    "composite": 70.50802139037432,
-    "digest": "e5a4cc6b150fc21b69ce71d98bffbccbbee705b4dfd1aa6e4d4f6fd1c7cb63a8",
-    "static_score": 0.7140294117647059,
+    "composite": 78.4090909090909,
+    "digest": "5c7458485b12ef8d6fe7604ed69968941c1bc1e488a26cb3e899d06972b6894d",
+    "static_score": 0.7706000000000001,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.6499999999999999,
+      "frontmatter_quality": 0.83,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.75,
+      "orchestration_wiring": 0.7999999999999999,
       "progressive_disclosure": 0.65,
-      "structural_completeness": 0.65,
-      "token_efficiency": 0.9725490196078431
+      "structural_completeness": 0.5000000000000001,
+      "token_efficiency": 1.0
     }
   },
   "developer-essentials/auth-implementation-patterns": {

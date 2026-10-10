@@ -86,6 +86,7 @@ INTENTIONAL_AGENT_VARIANTS = frozenset(
         ("backend-development", "security-auditor"),
         ("backend-development", "test-automator"),
         ("backend-development", "performance-engineer"),
+        ("database-design", "database-architect"),
         ("incident-response", "code-reviewer"),
         ("incident-response", "debugger"),
         ("incident-response", "error-detective"),
