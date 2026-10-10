@@ -332,7 +332,7 @@ Skills provide domain guidance that coding agents can load when relevant. Each s
 
 | Skill                         | Description                                                       |
 | ----------------------------- | ----------------------------------------------------------------- |
-| **postgresql-table-design**   | Design and review PostgreSQL-specific schemas with proper modeling |
+| **snowflake-postgres-table-design** | Table design for Snowflake Postgres, data mirroring and pg_lake into Snowflake, and dbt-core 1.1x configs |
 
 ### Documentation Standards (2 skills)
 

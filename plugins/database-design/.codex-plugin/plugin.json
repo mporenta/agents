@@ -1,7 +1,7 @@
 {
   "name": "database-design",
-  "version": "1.2.1",
-  "description": "Database architecture, schema design, and SQL optimization for production systems",
+  "version": "2.0.0",
+  "description": "Snowflake Postgres table design, data mirroring and pg_lake into Snowflake, and dbt-core 1.1x modeling",
   "skills": "./skills/",
   "author": {
     "name": "Seth Hobson",
@@ -11,11 +11,11 @@
   "repository": "https://github.com/wshobson/agents",
   "license": "MIT",
   "keywords": [
-    "postgresql-table-design"
+    "snowflake-postgres-table-design"
   ],
   "interface": {
     "displayName": "Database Design",
-    "shortDescription": "Database architecture, schema design, and SQL optimization for production systems",
+    "shortDescription": "Snowflake Postgres table design, data mirroring and pg_lake into Snowflake, and dbt-core 1.1x modeling",
     "category": "Coding"
   }
 }

@@ -74,7 +74,7 @@ Reference for 202 local AI agents organized by category. The model column lists 
 | [haskell-pro](../plugins/functional-programming/agents/haskell-pro.md)             | sonnet | Strongly typed functional programming with purity, advanced type systems, and concurrency |
 | [unity-developer](../plugins/game-development/agents/unity-developer.md)           | sonnet | Unity game development and optimization                                                   |
 | [minecraft-bukkit-pro](../plugins/game-development/agents/minecraft-bukkit-pro.md) | opus   | Minecraft server plugin development                                                       |
-| [sql-pro](../plugins/database-design/agents/sql-pro.md)                            | sonnet | Complex SQL queries and database optimization                                             |
+| [sql-pro](../plugins/database-design/agents/sql-pro.md)                            | sonnet | SQL for Snowflake Postgres, Snowflake, and dbt-core 1.1x models                           |
 
 ### Infrastructure & Operations
 
@@ -93,7 +93,7 @@ Reference for 202 local AI agents organized by category. The model column lists 
 | -------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
 | [database-optimizer](../plugins/observability-monitoring/agents/database-optimizer.md) | inherit| Query optimization, index design, migration strategies              |
 | [database-admin](../plugins/database-migrations/agents/database-admin.md)              | sonnet | Database operations, backup, replication, monitoring                |
-| [database-architect](../plugins/database-design/agents/database-architect.md)          | opus   | Database design from scratch, technology selection, schema modeling |
+| [database-architect](../plugins/database-design/agents/database-architect.md)          | opus   | Snowflake Postgres and Snowflake data-platform design, mirroring, dbt layer planning |
 
 #### Incident Response & Network
 
