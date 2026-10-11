@@ -134,6 +134,66 @@
       "token_efficiency": 0.9733333333333334
     }
   },
+  "aptive-data-engineering/dbt-refactor-workflow": {
+    "badge": "bronze",
+    "composite": 60.984848484848484,
+    "digest": "0d515a4120e066f01805fac21a6f9b3663aebe09a6e87c19a52d46b5af5e883f",
+    "static_score": 0.6057,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.5599999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.35,
+      "structural_completeness": 0.25,
+      "token_efficiency": 1.0
+    }
+  },
+  "aptive-data-engineering/dbt-snowflake-models": {
+    "badge": "bronze",
+    "composite": 63.738065587380646,
+    "digest": "7b3d89393b37fd4abc1a7423031419920254090caa7481aa75825acab6edac7d",
+    "static_score": 0.6425068493150685,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.6499999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.7,
+      "progressive_disclosure": 0.35,
+      "structural_completeness": 0.45,
+      "token_efficiency": 0.9945205479452055
+    }
+  },
+  "aptive-data-engineering/prefect-flow-patterns": {
+    "badge": "silver",
+    "composite": 77.78900112233445,
+    "digest": "c96216adc4dc2d6213bcdca7e5cb001f241c1541285ac1484cae385862bde276",
+    "static_score": 0.7670111111111111,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.77,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.85,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 0.55,
+      "token_efficiency": 0.9901234567901235
+    }
+  },
+  "aptive-data-engineering/snowflake-loading-patterns": {
+    "badge": "bronze",
+    "composite": 66.06060606060605,
+    "digest": "ce63822a8874fd04096f51420187dd6d2b5b98422dc6a665f3a9fbf342c3dddc",
+    "static_score": 0.6622,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.71,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.7,
+      "progressive_disclosure": 0.35,
+      "structural_completeness": 0.45,
+      "token_efficiency": 1.0
+    }
+  },
   "avoid-ai-writing/avoid-ai-writing": {
     "badge": "bronze",
     "composite": 64.24242424242424,
@@ -300,18 +360,18 @@
     }
   },
   "block-no-verify/block-no-verify-hook": {
-    "badge": "bronze",
-    "composite": 69.58931419457734,
-    "digest": "e7fbf6b8b19bf6379b9337ed017158e19e1e4c65752c43cd1433192839968c39",
-    "static_score": 0.6954842105263157,
+    "badge": "silver",
+    "composite": 70.97382920110192,
+    "digest": "5501cf3fec78c00ea3657e063edff331287bd576adf16588e665b39f8dce2198",
+    "static_score": 0.7081909090909091,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 0.98,
       "orchestration_wiring": 0.85,
-      "progressive_disclosure": 0.5,
+      "progressive_disclosure": 0.6,
       "structural_completeness": 0.6,
-      "token_efficiency": 0.8131578947368421
+      "token_efficiency": 0.7987878787878788
     }
   },
   "blockchain-web3/defi-protocol-templates": {
@@ -436,9 +496,9 @@
   },
   "cicd-automation/github-actions-templates": {
     "badge": "silver",
-    "composite": 72.51082251082252,
-    "digest": "a772e5fbc9cf2bfde8c2c4c7915d7c98ff218376dc767b0ca20e13dc93b30e48",
-    "static_score": 0.7240571428571428,
+    "composite": 72.49726177437022,
+    "digest": "1333e048feba98203574cad3d85e45bceaca2be8f407dd02a07fea45bdf4f132",
+    "static_score": 0.7239228915662651,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -446,14 +506,14 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.45,
-      "token_efficiency": 0.8761904761904762
+      "token_efficiency": 0.8746987951807229
     }
   },
   "cicd-automation/gitlab-ci-patterns": {
     "badge": "silver",
-    "composite": 72.46753246753246,
-    "digest": "628602f9e728969c9ac8f865c399039e4dd880c17d12b8a944db87df3da6cf58",
-    "static_score": 0.7236285714285714,
+    "composite": 72.48803827751196,
+    "digest": "1dfa5c004af7161a8e2d51a2f662b2f80b37a1b6b004181b4ccb9f284eeb3254",
+    "static_score": 0.7238315789473685,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -461,14 +521,14 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.45,
-      "token_efficiency": 0.8714285714285714
+      "token_efficiency": 0.8736842105263158
     }
   },
   "cicd-automation/secrets-management": {
     "badge": "silver",
-    "composite": 71.41711229946524,
-    "digest": "ff0f06ca5a97d053c34287722f2f07362a00872ece8f44971a95e81686f90205",
-    "static_score": 0.7247794117647058,
+    "composite": 71.41245791245791,
+    "digest": "c496d67574a77849534b4dfb6f701c96fef96d68a78a7d184d7a331bd9900149",
+    "static_score": 0.7247333333333333,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
@@ -476,7 +536,7 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.6000000000000001,
-      "token_efficiency": 0.9308823529411765
+      "token_efficiency": 0.9303703703703704
     }
   },
   "cloud-infrastructure/cost-optimization": {
@@ -526,9 +586,9 @@
   },
   "cloud-infrastructure/linkerd-patterns": {
     "badge": "silver",
-    "composite": 71.37806637806638,
-    "digest": "817d53aeece25a4654b278d79739c31e2f2ef42627cf5b0243229f6364debd43",
-    "static_score": 0.7198428571428571,
+    "composite": 71.38859180035651,
+    "digest": "73cde54b42f79508842ff08674bf3dfd64e054419dc45b95ab588dd437168a8e",
+    "static_score": 0.7199470588235294,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
@@ -536,7 +596,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.65,
-      "token_efficiency": 0.9015873015873016
+      "token_efficiency": 0.9027450980392157
     }
   },
   "cloud-infrastructure/mtls-configuration": {
@@ -602,7 +662,7 @@
   "conductor/context-driven-development": {
     "badge": "bronze",
     "composite": 64.69696969696969,
-    "digest": "a8391f332d3ab886af31f21b71ad17328ce605dd17b276da25c6a7c8ea284d25",
+    "digest": "3c97526d8e9c203ac48ad7eb16d8e33744975f8d86ebffc311990b45455fdd8c",
     "static_score": 0.6322,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -707,7 +767,7 @@
   "database-design/snowflake-postgres-table-design": {
     "badge": "silver",
     "composite": 78.4090909090909,
-    "digest": "5c7458485b12ef8d6fe7604ed69968941c1bc1e488a26cb3e899d06972b6894d",
+    "digest": "9c5d8f1a2665baf79d5886e842ee287a836d6dfe646c69f5466a263691c9fc37",
     "static_score": 0.7706000000000001,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -871,17 +931,17 @@
   },
   "developer-essentials/turborepo-caching": {
     "badge": "silver",
-    "composite": 73.02779450130444,
-    "digest": "7eb976c2a4971131ce36d7dd77e150af7d7b41ec1f6b43a7741e8100ba1edf23",
-    "static_score": 0.7354251655629139,
+    "composite": 73.03105310531053,
+    "digest": "d80cf0ccc54a24ec2ceffbcdd119d9029f091ce2dcef04f1a08aa04236c420c2",
+    "static_score": 0.7264574257425743,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
-      "harness_portability": 1.0,
+      "harness_portability": 0.85,
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.8913907284768212
+      "token_efficiency": 0.8917491749174917
     }
   },
   "dgx-spark-ops/spark-environment-setup": {
@@ -962,7 +1022,7 @@
   "documentation-generation/openapi-spec-generation": {
     "badge": "bronze",
     "composite": 68.33333333333333,
-    "digest": "a48288aba83051b46e7e957b22a0239a5dac433b9c71ad58e55ccf6015e41caf",
+    "digest": "e40d86b4591349333d43aa8f12555ae593490f03ed732d639e68b34d102414a0",
     "static_score": 0.6775,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1020,18 +1080,18 @@
     }
   },
   "file-conversion/file-conversion": {
-    "badge": "bronze",
-    "composite": 66.13636363636364,
-    "digest": "2777899e8526b38dd0223ce77bae668115ab068e27edda5bbea359bfaed39624",
-    "static_score": 0.6462,
+    "badge": "silver",
+    "composite": 72.14015151515152,
+    "digest": "cc1ce1ff044f9e2d3975e2bfe89d5bc078c820cfefe98c7770ea18415c66d318",
+    "static_score": 0.7163875,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.5599999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 1.0,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.35,
-      "token_efficiency": 0.9333333333333333
+      "progressive_disclosure": 0.5,
+      "structural_completeness": 0.6,
+      "token_efficiency": 0.96875
     }
   },
   "framework-migration/angular-migration": {
@@ -1142,7 +1202,7 @@
   "frontend-mobile-development/tailwind-design-system": {
     "badge": "silver",
     "composite": 72.9480052321779,
-    "digest": "59d785326bd509b9d069356215767294308e5677c5935459945e1424b090d5e8",
+    "digest": "9d936fc75216bc992917448e0c4983fd99d5fb14a88aceeb32e49aac2bc818c2",
     "static_score": 0.7231352517985612,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1157,7 +1217,7 @@
   "game-development/godot-gdscript-patterns": {
     "badge": "bronze",
     "composite": 69.79437229437228,
-    "digest": "be81fd1fac66b5eed60c616511a42edd7b73e636fbda21bf191e5d7163a902bf",
+    "digest": "2ae848e1f6834fbbc8562ffd3578f05427b9f31323fc42ea1d6669ae18d867c7",
     "static_score": 0.6804142857142857,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1229,6 +1289,21 @@
       "token_efficiency": 0.9773584905660377
     }
   },
+  "incident-response/connectivity-triage": {
+    "badge": "silver",
+    "composite": 76.67464114832536,
+    "digest": "34211ebcd5ec323436cc24628ce67a9d24cd8876f5da90a221b4dbc351180527",
+    "static_score": 0.7669789473684211,
+    "sub_scores": {
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.77,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.8,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 0.55,
+      "token_efficiency": 0.9508771929824561
+    }
+  },
   "incident-response/incident-runbook-templates": {
     "badge": "silver",
     "composite": 73.6455463728191,
@@ -1245,12 +1320,12 @@
     }
   },
   "incident-response/on-call-handoff-patterns": {
-    "badge": "bronze",
-    "composite": 65.8894584139265,
-    "digest": "59badcc391ad9ec9c2f753386645a797cd8b409e5fefef2efae76d202ff523a4",
-    "static_score": 0.6689106382978723,
+    "badge": "silver",
+    "composite": 72.72566086395872,
+    "digest": "9a52e69f0dfc151debaf251bf3d3aaca98d9c44c8cc7e66812a95ef6d65c9761",
+    "static_score": 0.7336340425531915,
     "sub_scores": {
-      "ecosystem_coherence": 0.91,
+      "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.77,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.7999999999999999,
@@ -1261,9 +1336,9 @@
   },
   "incident-response/postmortem-writing": {
     "badge": "silver",
-    "composite": 71.42007321537524,
-    "digest": "d6dd4ebbf495550b00c88f5c2bc5b101e98b429aa44e5b1b8144c0dca82348a2",
-    "static_score": 0.7138087248322147,
+    "composite": 71.44043887147336,
+    "digest": "5a4595fe641d45ad3cf28288bb5baa45bc468f0523b5d908c7de110cb7f01285",
+    "static_score": 0.7140103448275862,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
@@ -1271,7 +1346,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.49999999999999994,
-      "token_efficiency": 0.9812080536912752
+      "token_efficiency": 0.983448275862069
     }
   },
   "javascript-typescript/javascript-testing-patterns": {
@@ -1292,7 +1367,7 @@
   "javascript-typescript/modern-javascript-patterns": {
     "badge": "bronze",
     "composite": 64.69696969696969,
-    "digest": "c7fdc3071f8b7c77e6426ba15da48829a738df126d2228b8e14cb64d374156fb",
+    "digest": "f6d50010efe418c1052f48045725978aafeb4b3054dceafadaee0ea452e3fce9",
     "static_score": 0.6322,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1307,7 +1382,7 @@
   "javascript-typescript/nodejs-backend-patterns": {
     "badge": "bronze",
     "composite": 67.95454545454544,
-    "digest": "33dc6e804bbc1300dd78a3f61126d4ffa8ef18821c1b8360c561b166c0b30384",
+    "digest": "ce2dc06fc4be9723bccc7d31ae2c19782c81bfe837210f6d989df597faf99e9b",
     "static_score": 0.6602,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1336,9 +1411,9 @@
   },
   "kubernetes-operations/gitops-workflow": {
     "badge": "silver",
-    "composite": 74.52716823406479,
-    "digest": "9630d0711fdfb1079d567f516303abf02ea2b7a4f45683046ae5412807814934",
-    "static_score": 0.7597689655172414,
+    "composite": 74.53997421018698,
+    "digest": "dbaae1287513218a471b03c8c9ef4a0f9e8f57f02262708e331d7d5dc492212e",
+    "static_score": 0.7598957446808511,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -1346,7 +1421,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.8896551724137931
+      "token_efficiency": 0.8910638297872341
     }
   },
   "kubernetes-operations/helm-chart-scaffolding": {
@@ -1367,7 +1442,7 @@
   "kubernetes-operations/k8s-manifest-generator": {
     "badge": "silver",
     "composite": 70.37878787878789,
-    "digest": "58270203cc790414c0c2acffb29856815685aa1f1edfb46ce5cb9926a670cb3a",
+    "digest": "8ecdf23c128af071b04b2d2a2f789cbd840257512fdcd0997aa3e8d185653f71",
     "static_score": 0.7047,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1697,7 +1772,7 @@
   "observability-monitoring/distributed-tracing": {
     "badge": "bronze",
     "composite": 67.04545454545455,
-    "digest": "3110fa666579d6c332d4179793539c6980b21155cb1c2db02348d829f3e242de",
+    "digest": "eb4a26480ffa7493b1246fb066565bc4b80af9744fe33568efb1cec7fb07c6a3",
     "static_score": 0.6822,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1711,9 +1786,9 @@
   },
   "observability-monitoring/grafana-dashboards": {
     "badge": "silver",
-    "composite": 71.55303030303031,
-    "digest": "c00e86e63753191ba21af50267e7e3c3e7b27be717ab1ebf73f5b2cc0bbfedad",
-    "static_score": 0.726325,
+    "composite": 71.54120065003346,
+    "digest": "251a3f5d939e096b01f5b2167aaf511771c555891de7a20220e405e252bc0e09",
+    "static_score": 0.7262078864353312,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -1721,13 +1796,13 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.6000000000000001,
-      "token_efficiency": 0.8625
+      "token_efficiency": 0.861198738170347
     }
   },
   "observability-monitoring/prometheus-configuration": {
     "badge": "bronze",
     "composite": 68.44155844155844,
-    "digest": "9ae8b1655708c3f762908837586520c3d8bcfcc1e56a51ea1a28075a162a85d0",
+    "digest": "954b9974861a30db2361a10f4f8b71a6da66c3570a4a2d797b120f9d2d4fd4ae",
     "static_score": 0.6952714285714285,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1741,9 +1816,9 @@
   },
   "observability-monitoring/slo-implementation": {
     "badge": "silver",
-    "composite": 73.63636363636364,
-    "digest": "71b7d9d4fabbbd85bac9a29e8f8a8c2d5b20fb50065e1c3f59726b6d91da3fb4",
-    "static_score": 0.7407,
+    "composite": 73.62786745964316,
+    "digest": "f412f05fcfd369cbbad5f28c116357c733ede66fb1fcc363c311909b8ef1611f",
+    "static_score": 0.7406158878504673,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
@@ -1751,7 +1826,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.65,
-      "token_efficiency": 0.9
+      "token_efficiency": 0.8990654205607477
     }
   },
   "payment-processing/billing-automation": {
@@ -1906,17 +1981,17 @@
   },
   "protect-mcp/protect-mcp-setup": {
     "badge": "silver",
-    "composite": 74.92424242424242,
-    "digest": "4cc894334ccc182f8bc85268ed55ab954626e37b4460809887d778529406944a",
-    "static_score": 0.749,
+    "composite": 77.28675645342312,
+    "digest": "64977a9c83a7eba23a149ae7ecca9ed467d0edaa195f4a6ed1718972c6b8cfba",
+    "static_score": 0.7798888888888889,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
-      "progressive_disclosure": 0.6,
+      "progressive_disclosure": 0.75,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9333333333333333
+      "token_efficiency": 0.9432098765432099
     }
   },
   "python-development/async-python-patterns": {
@@ -2042,7 +2117,7 @@
   "python-development/python-packaging": {
     "badge": "silver",
     "composite": 71.38257575757576,
-    "digest": "21c40a6c70701a6be8561b1ff55e75b6d043f692131d16c58006f0dd8e7b3ecf",
+    "digest": "8f6f52cef0e2365041853a5fc07757f096c775a0272cedfbf7238babffb76e60",
     "static_score": 0.7083875000000001,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2057,7 +2132,7 @@
   "python-development/python-performance-optimization": {
     "badge": "bronze",
     "composite": 69.39393939393939,
-    "digest": "68702104c6aa371ba28af165db1ab14d95dce320334ed337d0057dbfa8c40251",
+    "digest": "27c83db70e27a685ebd7b4276eb7ddbd5445843cf2b439cf7651ea2206cc9901",
     "static_score": 0.6865,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2117,7 +2192,7 @@
   "python-development/python-testing-patterns": {
     "badge": "silver",
     "composite": 78.0909090909091,
-    "digest": "22d53be9812ee5f69e91bf38dd0a9605245294a1c4dff8aec37c42ba23310f71",
+    "digest": "b465a0f65077f7b97b3ba78e6e9cbb4e727d358b70d8dd96c94b82a51cfcfdae",
     "static_score": 0.7688,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2146,16 +2221,16 @@
   },
   "python-development/uv-package-manager": {
     "badge": "silver",
-    "composite": 75.84626755358464,
-    "digest": "4c926965ef29c32d065f2fc6909795d9a9f96fb703de7e218301e087e38c3613",
-    "static_score": 0.7498780487804878,
+    "composite": 76.07354028085736,
+    "digest": "60e2e83a83200ba648ff7800a8f792c184faeb103c90d9554272eea90b5e0569",
+    "static_score": 0.7548780487804878,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
       "progressive_disclosure": 0.75,
-      "structural_completeness": 0.55,
+      "structural_completeness": 0.6000000000000001,
       "token_efficiency": 0.943089430894309
     }
   },
@@ -2192,7 +2267,7 @@
   "reverse-engineering/anti-reversing-techniques": {
     "badge": "silver",
     "composite": 73.07792207792207,
-    "digest": "992b89b4de897442ea5bbcccd439a297d7433a7ab4945c52b6e622ccec94e6a6",
+    "digest": "2c677ef31ee4a94cc8f3247fb062ec858338a7c307accf178cd60ee2e3d03253",
     "static_score": 0.7198714285714286,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -2251,9 +2326,9 @@
   },
   "review-agent-governance/review-agent-setup": {
     "badge": "bronze",
-    "composite": 69.64667685255921,
-    "digest": "0ee3eb66191fa907f0df25a8e21d209aa8e7c7afcab9dd644f1d1bf13ec305ec",
-    "static_score": 0.7062521008403362,
+    "composite": 69.6875,
+    "digest": "4e5d87fca996ef7c2866b1afb4825a0fe6f8502d6458bce7df1ad6de385a79cf",
+    "static_score": 0.70665625,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
@@ -2261,7 +2336,7 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.5,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9361344537815126
+      "token_efficiency": 0.940625
     }
   },
   "security-scanning/attack-tree-construction": {
@@ -2281,9 +2356,9 @@
   },
   "security-scanning/sast-configuration": {
     "badge": "silver",
-    "composite": 79.53896103896105,
-    "digest": "5635e6836e21d4affc1005a0575bb8b1e653ee36492c651cf6ecec515eeca6a0",
-    "static_score": 0.7998857142857143,
+    "composite": 79.5372792674951,
+    "digest": "71831fcc032b908ad9cf18cf8b7bee9a73c40e6cd5faf6b70e63d4021acbb0cf",
+    "static_score": 0.7998690647482014,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -2291,7 +2366,7 @@
       "orchestration_wiring": 1.0,
       "progressive_disclosure": 0.5,
       "structural_completeness": 0.8,
-      "token_efficiency": 0.9742857142857143
+      "token_efficiency": 0.9741007194244604
     }
   },
   "security-scanning/security-requirement-extraction": {
@@ -2401,17 +2476,17 @@
   },
   "signed-audit-trails/signed-audit-trails-recipe": {
     "badge": "silver",
-    "composite": 77.30361555468852,
-    "digest": "31f69829116d85b3ee4a9abbc5e1bc5ba728c692d31930bb7b0482ecb1b82ffa",
-    "static_score": 0.7800557939914163,
+    "composite": 74.29265921244532,
+    "digest": "b7e9e016d515922111526b32169efc51b4a55cd1bfbd2d69e439c6a5696f5a4b",
+    "static_score": 0.7544973262032085,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.9,
+      "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.75,
-      "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9450643776824035
+      "structural_completeness": 0.65,
+      "token_efficiency": 0.9721925133689839
     }
   },
   "skill-forge-essentials/ai-debt-detector": {

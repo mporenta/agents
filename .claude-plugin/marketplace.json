@@ -271,6 +271,19 @@
       "license": "MIT"
     },
     {
+      "name": "aptive-data-engineering",
+      "description": "Aptive data platform engineering: Prefect 3 flows and deployments, Snowflake loading, dbt-core 1.11 modeling in data-dbt, and dbt model rebuilds with the refactor MCP",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mike Porenta",
+        "email": "mike.porenta@goaptive.com"
+      },
+      "source": "./plugins/aptive-data-engineering",
+      "category": "data",
+      "homepage": "https://github.com/mporenta/agents",
+      "license": "MIT"
+    },
+    {
       "name": "incident-response",
       "description": "Production incident management, triage workflows, and automated incident resolution",
       "version": "1.4.0",

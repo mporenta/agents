@@ -1,0 +1,24 @@
+{
+  "name": "aptive-data-engineering",
+  "version": "1.0.0",
+  "description": "Aptive data platform engineering: Prefect 3 flows and deployments, Snowflake loading, dbt-core 1.11 modeling in data-dbt, and dbt model rebuilds with the refactor MCP",
+  "skills": "./skills/",
+  "author": {
+    "name": "Mike Porenta",
+    "email": "mike.porenta@goaptive.com"
+  },
+  "homepage": "https://github.com/wshobson/agents/tree/main/plugins/aptive-data-engineering",
+  "repository": "https://github.com/wshobson/agents",
+  "license": "MIT",
+  "keywords": [
+    "dbt-refactor-workflow",
+    "dbt-snowflake-models",
+    "prefect-flow-patterns",
+    "snowflake-loading-patterns"
+  ],
+  "interface": {
+    "displayName": "Aptive Data Engineering",
+    "shortDescription": "Aptive data platform engineering: Prefect 3 flows and deployments, Snowflake loading, dbt-core 1.11 modeling in\u2026",
+    "category": "Coding"
+  }
+}

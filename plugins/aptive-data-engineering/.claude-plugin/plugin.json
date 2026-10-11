@@ -1,0 +1,10 @@
+{
+  "name": "aptive-data-engineering",
+  "version": "1.0.0",
+  "description": "Aptive data platform engineering: Prefect 3 flows and deployments, Snowflake loading, dbt-core 1.11 modeling in data-dbt, and dbt model rebuilds with the refactor MCP",
+  "author": {
+    "name": "Mike Porenta",
+    "email": "mike.porenta@goaptive.com"
+  },
+  "license": "MIT"
+}

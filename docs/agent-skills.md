@@ -1,6 +1,6 @@
 # Agent Skills
 
-Agent Skills provide specialized guidance for AI coding agents using the shared [Agent Skills Specification](https://agentskills.io/specification). The repository includes 184 local skills across 51 plugins, with support for seven coding tools. See the [capability matrix](./harnesses.md) for discovery and installation differences.
+Agent Skills provide specialized guidance for AI coding agents using the shared [Agent Skills Specification](https://agentskills.io/specification). The repository includes 188 local skills across 51 plugins, with support for seven coding tools. See the [capability matrix](./harnesses.md) for discovery and installation differences.
 
 Install a skill on its own into a tool supported by the Agent Skills installers:
 
@@ -212,6 +212,15 @@ Skills provide domain guidance that coding agents can load when relevant. Each s
 | **dbt-transformation-patterns** | Build dbt models with incremental strategies and testing                    |
 | **airflow-dag-patterns**        | Design Airflow DAGs with proper dependencies and error handling             |
 | **data-quality-frameworks**     | Implement data quality checks with Great Expectations and custom validators |
+
+### Aptive Data Engineering (4 skills)
+
+| Skill                          | Description                                                                      |
+| ------------------------------ | -------------------------------------------------------------------------------- |
+| **prefect-flow-patterns**      | Write Prefect 3 flows, config-driven specs, and America/Denver deployments       |
+| **snowflake-loading-patterns** | Land Parquet from S3 into Snowflake RAW with COPY INTO and append-only loads     |
+| **dbt-snowflake-models**       | Build data-dbt models by layer with incremental merge, masking, and cost tags    |
+| **dbt-refactor-workflow**      | Assess, scaffold, and prove parity for a model rebuild with the dbt refactor MCP |
 
 ### Documentation Generation (3 skills)
 
@@ -448,7 +457,7 @@ fastapi-templates skill → Supplies production-ready templates
 
 ## Specification Compliance
 
-All 184 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
+All 188 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
 
 - ✓ Required `name` field (hyphen-case)
 - ✓ Required `description` field with "Use when" clause

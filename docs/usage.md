@@ -135,6 +135,8 @@ Claude Code automatically selects and coordinates the appropriate agents based o
 | `/machine-learning-ops:ml-pipeline`     | ML training pipeline orchestration |
 | `/data-engineering:data-pipeline`       | ETL/ELT pipeline construction      |
 | `/data-engineering:data-driven-feature` | Data-driven feature development    |
+| `/aptive-data-engineering:prefect-pipeline` | Scaffold a source to S3 to Snowflake RAW to dbt pipeline on Prefect |
+| `/aptive-data-engineering:dbt-model-rebuild` | Assess, scaffold, and prove parity for one dbt model rebuild |
 | `/dgx-spark-ops:spark-preflight`        | DGX Spark ML workload preflight with env-report.json |
 
 ### Documentation
@@ -412,11 +414,11 @@ User: "Implement Kubernetes deployment with Helm"
 → Result: Production-grade K8s manifests with Helm charts
 ```
 
-See [Agent Skills](./agent-skills.md) for details on the 184 specialized skills.
+See [Agent Skills](./agent-skills.md) for details on the 188 specialized skills.
 
 ## See Also
 
 - [Agent Skills](./agent-skills.md) - Specialized knowledge packages
 - [Agent Reference](./agents.md) - Complete agent catalog
-- [Plugin Reference](./plugins.md) - All 94 marketplace plugins
+- [Plugin Reference](./plugins.md) - All 95 marketplace plugins
 - [Architecture](./architecture.md) - Design principles
